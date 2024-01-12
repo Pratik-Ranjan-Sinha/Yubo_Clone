@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#main #page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+    background-size: cover;
+}
+#main #page1 #fakeback{
+    width: 100%;
+    height: 14.8%;
+    background-color: transparent;
+}
+#main #page1 #fakeback #nav_bar{
+    width: 100%;
+    height: 14.8%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main #page1 #fakeback #nav_bar #right i{
+    color: white;
+    font-size: 30px;
+}
+#main #page1 #fakeback #nav_bar #android{
+    height: 30px;
+}
+#main #page1 #fakeback #nav_bar #right{
+    margin-right: 48px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 15px;
+    background-color: #151400;
+    padding: 8px 16px;
+    border-radius: 35px;
+}
+#main #page1 #fakeback #nav_bar #right #bar{
+    color: white;
+    font-size: 35px;
+}
+#main #page1 #fakeback #nav_bar #logo{
+    height: 70px;
+}
+#main #page1 #fakeback #nav_bar #menu{
+    height: 16px;
+    width: 25px;
+    margin-left: 50px;
+}
+#main #page1 #fakeback #nav_bar #menu #single{
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    border-radius: 30px;
+}
+#main #page1 #fakeback #nav_bar #menu #gap{
+    height: 8px;
+    width: 25px;
+    background-color: transparent;
+}
+#main #page1 #fakeback #nav_bar #menu #double{
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    border-radius: 30px;
+}
+#main #page1 #fakeback #nav_bar #menu:hover{
+    cursor: pointer;
+}
+#main #page1 #fakeback #nav_bar #logo:hover{
+    cursor: pointer;
+}
+#main #page1 #fakeback #nav_bar #right:hover{
+    cursor: pointer;
+}
+#main #page1 #bottom{
+    height: 85.2%;
+    width: 100%;
+    position: relative;
+}
+/* changing font name */
+@font-face {
+    font-family: right;
+    src: url(./RightGrotesk-CompactBlack.otf);
+}
+@font-face {
+    font-family: regular;
+    src: url(./RightGrotesk-Regular.ttf);
+}
+#main #page1 #bottom #a{
+    font-family: right;
+    font-size: 178px;
+    color: #FFE30A;
+    position: absolute;
+    top: 22.2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #page1 #bottom #b{
+    font-family: right;
+    font-size: 178px;
+    color: #FFE30A;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #page1 #bottom #c{
+    font-family: right;
+    font-size: 178px;
+    color: #FFE30A;
+    position: absolute;
+    top: 59.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #page2{
+    height: 123%;
+    width: 100%;
+    background-color: #FFE30A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+#main #page2 #left{
+    font-family: right;
+    font-size: 73px;
+    line-height: 140px; /* is  given to provide gap in between two lines*/
+    margin-bottom: 1%;
+    margin-left: 17%;
+}
+#main #page2 #right{
+    scale: 1.05;
+    margin-right: 22%;
+}
+#green{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    z-index: 3;
+}
+#red{
+    position: absolute;
+    top: 28%;
+    left: 66%;
+}
+#white{
+    height: 110px;
+    position: absolute;
+    top: 57.5%;
+    left: 76%;
+}
+#purple{
+    position: absolute;
+    top: 60%;
+    left: 44%;
+    z-index: 3;
+}
+#stickman{
+    height: 220px;
+    position: absolute;
+    top: 65%;
+    left: 70.5%;
+}
+#main #page3{
+    height: 250%;
+    width: 100%;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-color: #FFE30A;
+    background-size: cover;
+}
+#main #page3 #part1{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #page3 #part1 #left{
+    height: 80%;
+    width: 43%;
+    position: relative;
+}
+#main #page3 #part1 #left h1{
+    font-family: right;
+    font-size: 140px;
+    line-height: 140px;
+    color: #FFE30A;
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#main #page3 #part1 #right{
+    width: 25%;
+    margin-right: 200px;
+    margin-top: 120px;
+}
+#main #page3 #part1 #right h6{
+    font-family: regular;
+    font-weight: 100;
+    font-size: 37px;
+    color: white;
+}
+#main #page3 #part1 #right button{
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    border-color: #FFE30A;
+    border: 1.5px solid;
+    font-family: regular;
+    font-size: 18px;
+    background-color: #FFE30A;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+#main #page3 #part1 #right button:hover{
+    background-color: #151400;
+    color: #FFE30A;
+}
+#main #page3 #part2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#main #page3 #part2 #left{
+    width: 25%;
+    margin-top: 550px;
+}
+#main #page3 #part2 #left h6{
+    font-family: regular;
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+}
+#main #page3 #part2 #right{
+    height: 85%;
+    width: 40%;
+}
+#main #page3 #part2 #right #pic{
+    height: 860px;
+    width: 540px;
+    background-image: url(https://www.yubo.live/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fyubo%2F82f890e9-ec72-4384-a0ba-67e945627f47_210211_Yubo_HSS_04_568--scaled.jpg.jpg%3Fauto%3Dcompress%2Cformat&w=640&q=75);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#main #page3 #part2 #left button{
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    border-color: #FFE30A;
+    border: 1.5px solid;
+    font-family: regular;
+    font-size: 18px;
+    background-color: #FFE30A;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+#main #page3 #part2 #left button:hover{
+    background-color: #151400;
+    color: #FFE30A;
+}
+#main #page3 #part2 #here{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+#main #page3 #part3{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+#main #page3 #part3 h1{
+    font-family: right;
+    font-size: 150px;
+    line-height: 140px;
+    color: #FFE30A;
+}
+#main #page3 #part3 h1 span img{
+    height: 115px;
+}
+#main #page3 #part3 button{
+    margin-bottom: 90px;
+    margin-left: 10px;
+    padding: 18px 50px;
+    border-radius: 40px;
+    border-color: #FFE30A;
+    border: 1.7px solid;
+    font-family: regular;
+    font-size: 18px;
+    background-color: #FFE30A;
+    cursor: pointer;
+    transition: all ease 500ms;
+}
+#main #page3 #part3 button:hover{
+    background-color: #151400;
+    color: #FFE30A;
+}
+.yubo-description-curved-text svg{
+    transform: scaleX(-1) scaleY(-1);
+    position: absolute;
+    z-index: 1;
+    font-family: right;
+    letter-spacing: .05em;
+    pointer-events: none;
+    font-size: 4em;
+    left: -18%;
+    top: 12%;
+    width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#main #page4{
+    height: 170%;
+    width: 100%;
+    background-color: #151400;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+    background-size: cover;
+    position: relative;
+}
+.elem{
+    height: 560px;
+    width: 420px;
+    border-radius: 43px;
+    position: absolute;
+    top: 14%;
+    left: 19.5%;
+    overflow: hidden;
+}
+#elem1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: all ease 0.8s;
+    cursor: pointer;
+}
+.elem:hover #overlay{
+    background-color: rgba(0, 0, 0, 0);
+}
+#elem2{
+    height: 560px;
+    width: 620px;
+    border-radius: 43px;
+    position: absolute;
+    top: 0%;
+    left: 48.5%;
+    overflow: hidden;
+}
+#elem2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#elem3{
+    height: 560px;
+    width: 480px;
+    border-radius: 43px;
+    position: absolute;
+    top: 39.8%;
+    left: 52%;
+    overflow: hidden;
+}
+#elem3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.elem h4{
+    position: absolute;
+    right: 10%;
+    top: 4%;
+    font-family: right;
+    font-size: 22px;
+    background-color: #8E6BFF;
+    padding: 6px 15px 8px 15px;
+    border-radius: 7px;
+}
+.elem h1{
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+    font-family: right;
+    font-size: 58px;
+    left: 7%;
+}
+.elem h6{
+    position: absolute;
+    bottom: 6%;
+    color: #fff;
+    font-family: regular;
+    font-weight: 100;
+    font-size: 22px;
+    left: 7%;
+}
+#elem2 h4{
+    right: 78%;
+    background-color: #FF5252;
+}
+#elem2 h1{
+    width: 85%;
+    line-height: 60px;
+}
+#elem3 h4{
+    top: 5%;
+    right: 64%;
+    background-color: #FFE500;
+}
+#elem3 h1{
+    width: 85%;
+    line-height: 60px;
+}
+#page4>img{
+    height: 380px;
+    position: absolute;
+    bottom: -5%;
+    left: 49%;
+    transform: translate(-50%,0);
+}
+#footer{
+    height: 78.4%;
+    width: 100%;
+    background-color: #8E6BFF;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+}
+#main #footer #part1{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.colum{
+    height: 70%;
+    width: 12%;
+    margin-top: 115px;
+    font-family: right;
+}
+.colum h2{
+    margin-top: 20px;
+    margin-bottom: 28px;
+    margin-left: 75px;
+    font-size: 32px;
+}
+.colum span{
+    margin-left: 75px;
+    line-height: 34px;
+    font-size: 24px;
+    font-family: regular;
+    font-weight: 100;
+    position: relative;
+    cursor: pointer;
+}
+.colum span::after{
+    content: "";
+    position: absolute;
+    height: 1.9px;
+    width: 0;
+    background-color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    transition: all ease 0.5s;
+}
+span:hover::after{
+    width: 100%;
+}
+#c1 h2{
+    margin-left: 90px;
+}
+#c1 span{
+    margin-left: 90px;
+}
+#c2 h2{
+    margin-left: 20px;
+}
+#c2 span{
+    margin-left: 20px;
+}
+#c3 h2{
+    margin-left: 20px;
+}
+#c3 span{
+    margin-left: 20px;
+}
+#c4{
+    width: 16%;
+}
+#c4 h2{
+    margin-left: 10px;
+}
+#c4 span{
+    margin-left: 10px;
+}
+#c5 h2{
+    margin-left: 10px;
+}
+#c5 span{
+    margin-left: 10px;
+}
+#main #footer #part2{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+#main #footer #part2 i{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    font-weight: 100;
+    padding: 10px 12px;
+    border-radius: 50%;
+    transition: all ease 300ms;
+}
+#main #footer #part2 i:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #151400;
+}
+#main #footer #part3{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 250px; */
+}
+#main #footer #part3 #t1{
+    height: 40%;
+    width: 35%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    font-size: 9.5px;
+    font-family: right;
+}
+#main #footer #part3 #t1 h1{
+    cursor: pointer;
+}
+#main #footer #part3 #t2{
+    height: 40%;
+    width: 10%;
+    font-size: 19px;
+    font-family: regular;
+}
+#main #footer #part3 #t3{
+    height: 22%;
+    width: 2.6%;
+    font-size: 9px;
+    font-family: right;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    position: relative;
+    cursor: pointer;
+}
+#main #footer #part3 #t3 #hover{
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: -620%;
+    right: 0;
+    z-index: -1;
+}
+#main #footer #part3 #t3 #hover h1{
+    margin-left: 10%;
+}
+#main #footer #part3 #t3 #hover h1:hover{
+    cursor: pointer;
+    color: rgb(117, 116, 116);
+}
+#main #footer #part3 #t3:hover #hover{
+    z-index: 3;
+}
